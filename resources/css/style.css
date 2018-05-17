@@ -73,7 +73,7 @@ a{
   body{
     flex-direction: column-reverse;
     align-items: center;
-    padding: 10% 5%;
+    padding: 4% 1%;
     }
 
     .image_container .mobile img{
@@ -90,13 +90,13 @@ a{
     .container{
       display: block;
       width: 100%;
-      margin: 10% 10%;
+      margin: 2% 4%;
     }
 
     .clickarea{
       display: flex;
       flex-direction: column;
-      margin: 5% auto;
+      margin: 2% auto;
     }
 
     .button{
