@@ -1,0 +1,106 @@
+
+/*Universal style*/
+
+body{
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 140px;
+}
+
+html{
+  font-family: 'Lato', sans-serif;
+}
+
+
+h1{
+  	height: 100px;
+    width: 70%;
+    color: #131313;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+/*Button Styling*/
+
+.button{
+  border-radius: 10% / 50%;
+  height: 52px;
+  width: 233px;
+  text-align: center;
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+.clickarea .get_started{
+  border: 1px solid white;
+  color: white;
+  background-color: #fa436b;
+}
+
+.clickarea .explore{
+  border: 1px solid #fa436b;
+  background-color: white;
+  color: #fa436b;
+}
+
+.clickarea{
+  display: flex;
+}
+
+
+/*Mobile Display*/
+
+.mobile{
+  display: none;
+}
+
+@media only screen and (max-device-width: 760px){
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+    }
+
+  body{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 10% 5%;
+    }
+
+    .image_container .mobile img{
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    h1{
+      width: 100%;
+      font-size: 24px;
+    }
+
+    .container{
+      display: block;
+      width: 100%;
+      margin: 10% 10%;
+    }
+
+    .clickarea{
+      display: flex;
+      flex-direction: column;
+      margin: 5% auto;
+    }
+
+    .button{
+      margin: 5% auto;
+    }
+
+}
